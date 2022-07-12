@@ -1,12 +1,20 @@
 /* Pc */
-@media (min-width:1024px) {
-    
-}
-/* tablet */
-@media (min-width:740px) and (max-width:1024px){
 
-}
+@media (min-width:1024px) {}
+
+
+/* tablet */
+
+@media (min-width:740px) and (max-width:1024px) {}
+
+
 /* mobile */
-@media (max-width: 740px){
-    
+
+@media (max-width: 740px) {
+    .menu-task>li {
+        display: block;
+    }
+    #header .search-button .search-icon {
+        display: none;
+    }
 }
